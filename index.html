@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product detail</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product__imgs">
+        <div class="product__imgs-mini">
+          <div class="product_img-mini" >
+            <img class="images" src="./images/image1.svg" alt="image1" />
+          </div>
+          <div class="product_img-mini">
+            <img class="images" src="./images/image2.svg" alt="image2" />
+          </div>
+          <div class="product_img-mini">
+            <img class="images" src="./images/image3.svg" alt="image3" />
+          </div>
+        </div>
+        <div class="product__img-main" >
+          <img id="main_img" src="./images/image1.svg" alt="image1" />
+        </div>
+      </div>
+      <div class="product__info">
+        <h1 class="product__title">One Life Graphic T-shirt</h1>
+        <div class="product__raiting">
+          <div class="product__stars">
+            <img src="./images/star.svg" alt="star" />
+            <img src="./images/star.svg" alt="star" />
+            <img src="./images/star.svg" alt="star" />
+            <img src="./images/star.svg" alt="star" />
+            <img src="./images/half-star.svg" alt="half-star" />
+          </div>
+          <p>4.5/<span>5</span></p>
+        </div>
+        <div class="product__price">
+          <h3>$260 <del>$300</del></h3>
+          <span>-40%</span>
+        </div>
+        <p class="product__description">
+          This graphic t-shirt which is perfect for any occasion. Crafted from a
+          soft and breathable fabric, it offers superior comfort and style.
+        </p>
+        <div class="product__colors">
+        <label for="colors">Select Colors</label>
+        <div class="colors" >
+          <div class="color color-brown">
+            <img class="selected" src="./images/select.svg" alt="select" />
+          </div>
+          <div class="color color-green">
+            <img class="selected" src="./images/select.svg" alt="select" />
+          </div>
+          <div class="color color-dark-blue">
+            <img class="selected" src="./images/select.svg" alt="select" />
+          </div>
+        </div>
+      </div>
+      <div class="product__size">
+        <label for="size">Choose Size</label>
+        <div class="size__btns" id="size">
+          <button class="btn size__btn ">Small</button>
+          <button class="btn size__btn">Medium</button>
+          <button class="btn size__btn">Large</button>
+          <button class="btn size__btn">X-Large</button>
+        </div>
+      </div>
+      <div class="product__sell">
+        <div class="product__count">
+          <button id="minus">-</button>
+          <h4 id="count">0</h4>
+          <button id="plus">+</button>
+        </div>
+        <button class="btn add__btn" id="add">Add to Cart</button>
+      </div>
+      </div>
+      
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
